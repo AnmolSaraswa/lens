@@ -1,0 +1,149 @@
+<html>
+
+<head>
+    <title>Google Lens vs Mobilenet App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+
+
+    <body >
+<center>
+        <div class="container">
+            <h4 style="text-align: center;font-family: 'Lexend Tera', sans-serif;">
+                <span style=" font-family: Eras Bold ITC;"><i>CASE STUDY BETWEEN GOOGLE LENS AND MOBILNET </i></span>
+                <br><br>
+                GOOGEL LENS <img src="z.png" style="width: 150px;">
+                <p>
+                    <b style="color: red;">VS</b>
+                </p>
+                <br>
+                <p class="btn btn-primary" style="font-size: 20px;">Mobilenet </p>
+            </h4>
+
+            <br>
+            <ol>
+                <div class="xyz_and_result col-xs-12 ">                  
+                    <li class="col-sm-4 col-xs-12">
+                        <b style="color: aqua;">Test Image- </b>
+                        <img src="a.webp" class="img-responsive">
+                    </li>
+                    <h5 class="col-sm-4 col-xs-12">
+                        Output on <b>GOOGLE LENS--</b>
+                        <span>Pen</span>
+                    </h5>
+                    <h5 class="col-sm-4 col-xs-12">
+                        Output on <b>MOBILE NET model--</b>
+                        <span>Marker</span>
+                    </h5>
+                    <div class="mini_result" class="col-xs-12"> 
+                        <h3>Result</h3>
+                        <hr>
+                        <h4>Google Lens is more accurate </h4>
+                    </div>
+                </div>
+                <div class="xyz_and_result col-xs-12 ">
+                    <li class="col-sm-4 col-xs-12">
+                        <b style="color: aqua;">Test Image-</b>
+                        <img src="b.jpg" class="img-responsive">
+                    </li>
+                    <h5 class="col-sm-4 col-xs-12">
+                        Output on <b>GOOGLE LENS--</b>
+                        <span>Water Bottle</span>
+                    </h5>
+                    <h5 class="col-sm-4 col-xs-12">
+                        Output on <b>MOBILE NET model--</b>
+                        <span>Water Bottle</span>
+                    </h5>
+                    <div class="mini_result" class="col-xs-12">
+                        <h3>Result</h3>
+                        <hr>
+                        <h4>Draw</h4>
+                    </div>
+                </div>
+                <div class="xyz_and_result col-xs-12 ">
+                    <li class="col-sm-4 col-xs-12">
+                        <b style="color: aqua;">Test Image-</b>
+                        <img src="c.jpg" class="img-responsive">
+                    </li>
+                    <h5 class="col-sm-4 col-xs-12">
+                        Output on <b>GOOGLE LENS--</b>
+                        <span>Pillow</span>
+                    </h5>
+                    <h5 class="col-sm-4 col-xs-12">
+                        Output on <b>MOBILE NET model--</b>
+                        <span>Blanket</span>
+                    </h5>
+                    <div class="mini_result" class="col-xs-12">
+                        <h3>Result</h3>
+                        <hr>
+                        <h4>Google Lens is more accurate</h4>
+                    </div>
+                </div>
+                <div class="xyz_and_result col-xs-12 ">
+                    <li class="col-sm-4 col-xs-12">
+                        <b style="color: aqua;">Test Image-</b>
+                        <img src="d.jpg" class="img-responsive">
+                    </li>
+                    <h5 class="col-sm-4 col-xs-12">
+                        Output on <b>GOOGLE LENS--</b>
+                        <span>Bed</span>
+                    </h5>
+                    <h5 class="col-sm-4 col-xs-12">
+                        Output on <b>MOBILE NET model--</b>
+                        <span>Bed Stead</span>
+                    </h5>
+                    <div class="mini_result" class="col-xs-12">
+                        <h3>Result</h3>
+                        <hr>
+                        <h4>Google Lens is more accurate</h4>
+                    </div>
+                </div>
+                <div class="xyz_and_result col-xs-12 ">
+                    <li class="col-sm-4 col-xs-12">
+                        <b style="color: aqua;">Test Image-</b>
+                        <img src="e.jpg" class="img-responsive">
+                    </li>
+                    <h5 class="col-sm-4 col-xs-12">
+                        Output on <b>GOOGLE LENS--</b>
+                        <span>Dining Table</span>
+                    </h5>
+                    <h5 class="col-sm-4 col-xs-12">
+                        Output on <b>MOBILE NET model--</b>
+                        <span>Wooden Table</span>
+                    </h5>
+                    <div class="mini_result" class="col-xs-12">
+                        <h3>Result</h3>
+                        <hr>
+                        <h4>Mobile net is more accurate</h4>
+                    </div>
+                </div>
+                <br><br>
+            </ol>
+
+            <h4 style="color: rgb(30, 255, 0);"class="col-xs-12 result">
+                I have tested 5 images<br>
+                <b>GOOGLE LENS</b> have predicted 4 of them more accurately. And <b>MOBILENET</b> was less
+                accurately<br>
+                So according to my case study <b>GOOGLE LENS</b> is more Accurate
+            </h4>
+
+            <div class="copy_right_footer btn btn-warning" style="color:aliceblue; width: 100%;">
+                Developed by - WhitehatJr Team
+            </div>
+       
+        </center>
+    </body>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
